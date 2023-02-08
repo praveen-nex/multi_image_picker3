@@ -1,4 +1,4 @@
 #import <Flutter/Flutter.h>
 
-@interface MultiImagePicker2Plugin : NSObject<FlutterPlugin>
+@interface MultiImagePicker3Plugin : NSObject<FlutterPlugin>
 @end

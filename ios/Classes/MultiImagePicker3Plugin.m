@@ -1,4 +1,4 @@
-#import "MultiImagePicker2Plugin.h"
+#import "MultiImagePicker3Plugin.h"
 #if __has_include(<multi_image_picker3/multi_image_picker3-Swift.h>)
 #import <multi_image_picker3/multi_image_picker3-Swift.h>
 #else
@@ -8,8 +8,8 @@
 #import "multi_image_picker3-Swift.h"
 #endif
 
-@implementation MultiImagePicker2Plugin
+@implementation MultiImagePicker3Plugin : NSObject
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftMultiImagePicker2Plugin registerWithRegistrar:registrar];
+    [SwiftMultiImagePicker2Plugin registerWithRegistrar:registrar];
 }
 @end
