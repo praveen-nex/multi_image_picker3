@@ -10,6 +10,6 @@
 
 @implementation MultiImagePicker3Plugin : NSObject
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-    [SwiftMultiImagePicker2Plugin registerWithRegistrar:registrar];
+    [SwiftMultiImagePicker3Plugin registerWithRegistrar:registrar];
 }
 @end
